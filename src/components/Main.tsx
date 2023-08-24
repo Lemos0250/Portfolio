@@ -7,6 +7,7 @@ export function Main () {
     <div className={`
     flex flex-row
     bg-white text-black text-5xl p-[9%]
+    border-b-4 border-black 
     `}>
 
         <div className={`
@@ -50,8 +51,12 @@ export function Main () {
         
         `}>
             
-            <div className="border-4 border-black rounded-[50%] p-4 ob">
-                <img src="https://avatars.githubusercontent.com/u/79033128?v=4" alt="Eu"></img>
+            <div className="border-4 border-black ob">
+                <img className="object-cover h-72 w-max" src="https://res.cloudinary.com/dte7upwcr/image/upload/f_auto,w_1200/v1618959177/blog/blog2/curso-de-programacao/curso-de-programacao-img_header.jpg" alt="Eu"></img>
+            </div>
+
+            <div className="text-sm mt-[5%]">
+                <span>Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema. <br/><br/><span className="font-semibold"> -Thales Valentim</span></span>
             </div>
         </div>
 
