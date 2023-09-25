@@ -3,30 +3,38 @@ export function Habilities () {
 
         <div className={`
         flex flex-row
-        w-full justify-start
-        text-2xl text-black bg-gray-400
+        w-full justify-evenly
+        text-2xl text-black bg-gray-300
+        border-black
         `}>
 
             <div className={`
             w-[50%]
-            flex flex-col gap-5 
-            justify-start`}>
+            flex flex-col gap-14
+            justify-center`}>
 
                 <div className={`
-                text-3xl p-2 mt-6
+                text-3xl p-2 mt-10
                 border-4 border-black rounded-full
+                text-center lg:w-[35%] md:w-[80%]
                 `}>
                     <span>Sobre Min</span>
                 </div>
 
                 <div className="text-xl ">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        <span>
+                        Olá me chamo João Victor tenho 21 anos e atualmente estou cursando Ciências da Computação no Centro Universitário dos Guararapes (UNIFG) e desde a minha infancia eu sempre gostei de programar animações em aplicativos como o Scratch e ao longo dos anos já vi diversas linguagens de programação como C++, C#, Java e PHP.
+                        <br/><br/>
+                        Desde 2020 voltei meus estudos para a programação Web, com foco em desenvolvimento Front-End, utilizo linguagens como JavaScript e Delphi com uma maior especialização em FrameWorks como React e Node.
+                        </span>
                 </div>
 
             </div>
 
-            <div className={`object-contain`}>
-                <img className="object-cover h-72 w-max" src="https://avatars.githubusercontent.com/u/79033128?v=4" alt="Eu"></img>
+            <div className={`
+            border-4 border-black mt-[5%]
+            object-fill`}>
+                <img className="object-cover lg:h-96 w-max" src="https://avatars.githubusercontent.com/u/79033128?v=4" alt="Eu"></img>
             </div>
 
         </div>

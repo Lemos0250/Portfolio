@@ -15,14 +15,14 @@ export function Main () {
         w-full gap-4
         `}>
             <span className="text-zinc-600 font-thin italic">Hello World</span>
-            <span className="font-black">I am a <br/> Front-End Developer </span>
-            <span className="text-zinc-600 font-thin italic">Welcome to my portifolio website</span>
+            <span className="font-black">Eu sou um <br/> Desenvolvedor Front-End </span>
+            <span className="text-zinc-600 font-thin italic">Seja bem vindo ao meu Portfolio</span>
 
             <button className={`
             text-3xl p-2 mt-6
             border-4 border-black rounded-full
-            w-[30%]
-            `}>More about me</button>
+            lg:w-[40%] sm:[100%]
+            `}>Mais Sobre Mim</button>
 
             <div className={`
             flex flex row gap-4 mt-[1.5%]
