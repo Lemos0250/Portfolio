@@ -5,14 +5,21 @@ export function Main () {
     return (
 
     <div className={`
-    flex flex-row
-    bg-white text-black text-5xl p-[9%]
-    border-b-4 border-black 
+    flex 
+    md:flex-row     max-sm:flex-col
+    md:h-screen     max-sm:h-[100%]
+    bg-white
+    text-black 
+    md:text-5xl     max-sm:text-4xl
+    p-[9%] border-b-4 border-black 
     `}>
 
         <div className={`
-        flex flex-col justify-around
-        w-full gap-4
+        flex flex-col 
+        md:justify-end     max-sm:justify-center
+        md:w-full    max-sm:w-full
+        md:mt-[0]    max-sm:mt-[25%] 
+        md:gap-4     max-sm:gap-5
         `}>
             <span className="text-zinc-600 font-thin italic">Hello World</span>
             <span className="font-black">Eu sou um <br/> Desenvolvedor Front-End </span>
@@ -25,7 +32,10 @@ export function Main () {
             `}>Mais Sobre Mim</button>
 
             <div className={`
-            flex flex row gap-4 mt-[1.5%]
+            flex 
+            flex row 
+            md:justify-start    max-sm:justify-center
+            gap-4 mt-[1.5%]
             `}>
 
             <a href="https://www.linkedin.com/in/joão-lemos-781044207/" target="_blank">
@@ -51,11 +61,14 @@ export function Main () {
         
         `}>
             
-            <div className="border-4 border-black ob">
+            <div className="border-4 border-black mt-[10%]">
                 <img className="object-cover h-72 w-max" src="https://res.cloudinary.com/dte7upwcr/image/upload/f_auto,w_1200/v1618959177/blog/blog2/curso-de-programacao/curso-de-programacao-img_header.jpg" alt="Eu"></img>
             </div>
 
-            <div className="text-sm mt-[5%]">
+            <div className={`
+            text-sm mt-[5%]
+            md:text-start    max-sm:text-center
+            `}>
                 <span>Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema. <br/><br/><span className="font-semibold"> -Thales Valentim</span></span>
             </div>
         </div>

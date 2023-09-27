@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.underline-blue {
+  text-decoration-color: blue;
+}

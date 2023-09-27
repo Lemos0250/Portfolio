@@ -1,23 +1,31 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Projectimage () {
     
     return (
         <div className={`
-        flex flex-col
-        mt-[2%] space-x-10
+        flex flex-col   bg-white
+        md:space-x-10   
         `}>
             <span className={`
-            text-4xl font-bold 
+            text-4xl font-bold
+            md:text-start    max-sm:text-center
+            md:mt-[2%]       max-sm:my-[7%]
+            transition hover:underline-blue
             `}>Projetos</span>
 
             <div className={`
-            gap-10
-            flex mt-[3.5%]
+            flex 
+            md:flex-row max-sm:flex-col
+            gap-10 mt-[3.5%] 
             items-center
             `}>
-                <a>
-                <span className='text-2xl font-bold break-normal'>NoShutUp</span><br/><br/>
+                <a className='ml-[3.5%]'>
+                <span className={`
+                text-2xl text-[#6b0023]
+                font-bold 
+                `}>NoShutUp</span><br/><br/>
                 NoShutUp é um blog desenvolvido com Next.js e estilizado com Tailwind CSS, dedicado a abordar a questão crucial da violência contra a mulher. Este blog oferece uma plataforma para amplificar as vozes das mulheres e conscientizar sobre esse problema global. Com um design responsivo e atraente, o NoShutUp apresenta artigos, histórias pessoais, recursos e informações educacionais relacionados à violência de gênero.<br/><br/>
                 O objetivo principal do NoShutUp é promover a igualdade de gênero e encorajar a ação para erradicar a violência contra as mulheres. Com uma abordagem inclusiva, o blog oferece um espaço seguro para compartilhar experiências e inspirar mudanças. O Next.js proporciona desempenho e otimização, enquanto o Tailwind CSS simplifica a estilização.<br/><br/>
                 NoShutUp é uma valiosa contribuição para a conscientização sobre um problema crítico, empoderando as mulheres e incentivando a sociedade a se unir contra a violência de gênero, tornando-o um recurso essencial na luta pela igualdade e segurança das mulheres.<br/><br/>
@@ -26,7 +34,7 @@ export function Projectimage () {
                 border 
                 border-4 border-black 
                 hover:border-blue-800
-                  hover:
+                
                 `} 
                 
                 src="https://i.imgur.com/HrsU6rI.png" 
@@ -37,11 +45,14 @@ export function Projectimage () {
             </div>
 
             <div className={`
-            flex my-[3.5%]
-            items-start space-x-10
+            flex 
+            md:flex-row       max-sm:flex-col
+            gap-10 mt-[3.5%] 
+            md:items-start    max-sm:items-center
+            md:space-x-10     
             `}>
-                <a>
-                <span className='text-2xl font-bold break-normal'>RocketMusic</span><br/><br/>
+                <a className='ml-[3.5%]'>
+                <span className='text-2xl text-[#6C0BA9] font-bold break-normal '>RocketMusic</span><br/><br/>
                 Rocket Music é um site que apresenta uma seleção de músicas em um ambiente fácil de usar. 
                 Os visitantes podem explorar uma variedade de faixas musicais de diferentes gêneros e artistas. 
                 Com uma interface intuitiva,
@@ -65,11 +76,14 @@ export function Projectimage () {
             </div>
 
             <div className={`
-            flex my-[3.5%]
-            items-start space-x-10
+            flex 
+            md:flex-row max-sm:flex-col
+            gap-10 mt-[3.5%] 
+            md:items-start max-sm:items-center
+            md:space-x-10
             `}>
-                <a>
-                <span className='text-2xl font-bold break-normal'>Plane Knucles</span><br/><br/>
+                <a className='ml-[3.5%]'>
+                <span className='text-2xl font-bold break-normal text-[#ff0040]'>Plane Knucles</span><br/><br/>
                 Knuckles Flap é um jogo que criei usando JavaScript, HTML e CSS, 
                 inspirado no Flappy Bird e estrelado pelo personagem Knuckles. 
                 Os jogadores controlam Knuckles, 

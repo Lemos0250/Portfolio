@@ -2,26 +2,38 @@ export function Habilities () {
     return (
 
         <div className={`
-        flex flex-row
+        flex 
+        md:flex-row     max-sm:flex-col
         w-full justify-evenly
-        text-2xl text-black bg-gray-300
-        border-black
+        text-2xl text-black 
+        bg-[#DCDCDC] border-b-4 border-black 
+        items-center
+
         `}>
 
             <div className={`
-            w-[50%]
-            flex flex-col gap-14
-            justify-center`}>
+            flex flex-col
+            md:w-[50%]      max-sm:w-screen
+            md:space-x-0    max-sm:space-x-[5%]
+            md:gap-14       max-sm:gap-6
+            justify-center
+            my-[6%]
+            `}>
 
                 <div className={`
-                text-3xl p-2 mt-10
-                border-4 border-black rounded-full
-                text-center lg:w-[35%] md:w-[80%]
+                text-start text-4xl font-bold
+                max-sm:items-center     max-sm:justify-center
+                p-2
+                border-black 
+                
+                lg:w-[35%] md:w-[80%] max-sm:w-[60%]
                 `}>
                     <span>Sobre Min</span>
                 </div>
 
-                <div className="text-xl ">
+                <div className="
+                md:text-2xl     max-sm:text-xl 
+                font-thin ">
                         <span>
                         Olá me chamo João Victor tenho 21 anos e atualmente estou cursando Ciências da Computação no Centro Universitário dos Guararapes (UNIFG) e desde a minha infancia eu sempre gostei de programar animações em aplicativos como o Scratch e ao longo dos anos já vi diversas linguagens de programação como C++, C#, Java e PHP.
                         <br/><br/>
