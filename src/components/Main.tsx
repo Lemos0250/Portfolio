@@ -4,7 +4,7 @@ import Link from "next/link"
 export function Main () {
     return (
 
-    <div className={`
+    <div id="Home" className={`
     flex 
     md:flex-row     max-sm:flex-col
     md:h-screen     max-sm:h-[100%]
@@ -71,8 +71,9 @@ export function Main () {
             `}>
                 <span>Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema. <br/><br/><span className="font-semibold"> -Thales Valentim</span></span>
             </div>
+            <div id="About"></div>
         </div>
-
+        
     </div>
     )
 }

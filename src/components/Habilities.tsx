@@ -3,9 +3,9 @@ export function Habilities () {
 
         <div className={`
         flex 
-        md:flex-row     max-sm:flex-col
+        lg:flex-row     max-[1020px]:flex-col   
         w-full justify-evenly
-        text-2xl text-black 
+        text-2xl
         bg-[#DCDCDC] border-b-4 border-black 
         items-center
 
@@ -22,13 +22,12 @@ export function Habilities () {
 
                 <div className={`
                 text-start text-4xl font-bold
-                max-sm:items-center     max-sm:justify-center
-                p-2
+
                 border-black 
                 
-                lg:w-[35%] md:w-[80%] max-sm:w-[60%]
+                lg:w-[80%] md:w-[80%] max-sm:w-[60%]
                 `}>
-                    <span>Sobre Min</span>
+                    <span>Sobre Mim</span>
                 </div>
 
                 <div className="
@@ -44,11 +43,13 @@ export function Habilities () {
             </div>
 
             <div className={`
-            border-4 border-black mt-[5%]
-            object-fill`}>
+            border-4 border-black 
+            rounded-full overflow-hidden
+            max-[1020px]:mb-[5%]`}>
                 <img className="object-cover lg:h-96 w-max" src="https://avatars.githubusercontent.com/u/79033128?v=4" alt="Eu"></img>
+                <div id="Projetos" ></div>            
             </div>
-
+            
         </div>
 
     )
