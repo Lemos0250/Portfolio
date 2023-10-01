@@ -38,7 +38,7 @@ export function Habilities () {
                         <span>
                         Olá me chamo João Victor tenho 21 anos e atualmente estou cursando Ciências da Computação no Centro Universitário dos Guararapes (UNIFG) e desde a minha infancia eu sempre gostei de programar animações em aplicativos como o Scratch e ao longo dos anos já vi diversas linguagens de programação como C++, C#, Java e PHP.
                         <br/><br/>
-                        Desde 2020 voltei meus estudos para a programação Web, com foco em desenvolvimento Front-End, utilizo linguagens como JavaScript e Delphi com uma maior especialização em FrameWorks como React e Node.
+                        Desde 2021 voltei meus estudos para a programação Web, com foco em desenvolvimento Front-End, utilizo linguagens como JavaScript e Delphi com uma maior especialização em FrameWorks como React e Node.
                         </span>
                 </div>
 
