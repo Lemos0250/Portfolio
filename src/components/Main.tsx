@@ -6,20 +6,22 @@ export function Main () {
 
     <div id="Home" className={`
     flex 
-    md:flex-row     max-sm:flex-col
-    md:h-screen     max-sm:h-[100%]
+    md:flex-row     max-[765px]:flex-col
+    md:h-screen     max-[765px]:h-[100%]
     bg-white
     text-black 
-    md:text-5xl     max-sm:text-4xl
+    md:text-5xl 
     p-[9%] border-b-4 border-black 
     `}>
 
         <div className={`
         flex flex-col 
-        md:justify-end     max-sm:justify-center
-        md:w-full    max-sm:w-full
-        md:mt-[0]    max-sm:mt-[25%] 
-        md:gap-4     max-sm:gap-5
+        md:justify-end      max-[765px]:justify-center
+        md:w-full           max-[765px]:w-full
+        md:mt-[0]           max-[765px]:mt-[5%] 
+        md:gap-4            max-[765px]:gap-5
+                            max-[765px]:text-5xl
+        
         `}>
             <span className="text-zinc-600 font-thin italic">Hello World</span>
             <span className="font-black">Eu sou um <br/> Desenvolvedor Front-End </span>
@@ -28,14 +30,14 @@ export function Main () {
             <button className={`
             text-3xl p-2 mt-6
             border-4 border-black rounded-full
-            lg:w-[40%] sm:[100%]
+            lg:w-[40%] max-[765px]:[100%]
             `}>Mais Sobre Mim</button>
 
             <div className={`
             flex 
             flex row 
-            md:justify-start    max-sm:justify-center
-            gap-4 mt-[1.5%]
+            md:justify-start    max-[765px]:justify-center
+            gap-4 mt-[1.5%]     max-[765px]:items-center
             `}>
 
             <a href="https://www.linkedin.com/in/joão-lemos-781044207/" target="_blank">
@@ -63,10 +65,10 @@ export function Main () {
             
             <div className="border-4 border-black mt-[10%]">
                 <Image 
-                className="object-cover h-72 w-max" 
+                className="object-cover h-72  w-max" 
                 src="https://res.cloudinary.com/dte7upwcr/image/upload/f_auto,w_1200/v1618959177/blog/blog2/curso-de-programacao/curso-de-programacao-img_header.jpg" 
                 width={800} height={60}
-                alt="Eu"></Image>
+                alt="Poesia"></Image>
             </div>
 
             <div className={`
