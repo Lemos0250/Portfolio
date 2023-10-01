@@ -1,13 +1,13 @@
 import Image from "next/image"
 
-import react from '@/img/react.png'
-import next from '@/img/Next.png'
-import ts from '@/img/typescript.png'
-import twcss from '@/img/tailwind.png'
-import html from '@/img/html5.png'
-import css from '@/img/css3.png'
-import js from '@/img/javascript.png'
-import git from '@/img/github.png'
+import react from '../img/Eu.jpg'
+import next from '../img/Next.png'
+import ts from '../img/typescript.png'
+import twcss from '../img/tailwind.png'
+import html from '../img/html5.png'
+import css from '../img/css3.png'
+import js from '../img/javascript.png'
+import git from '../img/github.png' 
 
 
 export function Images () {
