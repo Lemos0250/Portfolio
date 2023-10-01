@@ -6,38 +6,37 @@ export function Main () {
 
     <div id="Home" className={`
     flex 
+    justify-center items-center
     md:flex-row     max-[765px]:flex-col
-    md:h-screen     max-[765px]:h-[100%]
+    h-screen
     bg-white
     text-black 
     md:text-5xl 
-    p-[9%] border-b-4 border-black 
+    px-[9%] 
     `}>
 
         <div className={`
-        flex flex-col 
-        md:justify-end      max-[765px]:justify-center
-        md:w-full           max-[765px]:w-full
-        md:mt-[0]           max-[765px]:mt-[5%] 
-        md:gap-4            max-[765px]:gap-5
-                            max-[765px]:text-5xl
-        
+        flex flex-col   
+        max-[765px]:justify-center
+        max-[765px]:text-5xl
+        md:gap-6
+        w-full item-center
         `}>
             <span className="text-zinc-600 font-thin italic">Hello World</span>
             <span className="font-black">Eu sou um <br/> Desenvolvedor Front-End </span>
             <span className="text-zinc-600 font-thin italic">Seja bem vindo ao meu Portfolio</span>
 
             <button className={`
-            text-3xl p-2 mt-6
+            text-3xl p-2
             border-4 border-black rounded-full
             lg:w-[40%] max-[765px]:[100%]
             `}>Mais Sobre Mim</button>
 
             <div className={`
             flex 
-            flex row 
+            flex-row 
             md:justify-start    max-[765px]:justify-center
-            gap-4 mt-[1.5%]     max-[765px]:items-center
+            gap-4               max-[765px]:items-center
             `}>
 
             <a href="https://www.linkedin.com/in/joão-lemos-781044207/" target="_blank">
@@ -63,7 +62,7 @@ export function Main () {
         
         `}>
             
-            <div className="border-4 border-black mt-[10%]">
+            <div className="border-4 border-black">
                 <Image 
                 className="object-cover h-72  w-max" 
                 src="https://res.cloudinary.com/dte7upwcr/image/upload/f_auto,w_1200/v1618959177/blog/blog2/curso-de-programacao/curso-de-programacao-img_header.jpg" 
@@ -72,7 +71,7 @@ export function Main () {
             </div>
 
             <div className={`
-            text-sm mt-[5%]
+            text-sm
             md:text-start    max-sm:text-center
             `}>
                 <span>Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema. <br/><br/><span className="font-semibold"> -Thales Valentim</span></span>

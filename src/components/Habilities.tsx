@@ -4,12 +4,13 @@ export function Habilities () {
     return (
 
         <div className={`
-        flex 
+        flex h-screen
         lg:flex-row     max-[1020px]:flex-col   
         w-full justify-evenly
         text-2xl
-        bg-[#DCDCDC] border-b-4 border-black 
-        items-center
+        bg-[#333333]
+        text-white
+        items-center 
 
         `}>
 

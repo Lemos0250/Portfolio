@@ -11,8 +11,12 @@ export function TopBar() {
 
   return (
     <div className={`
-      flex flex-row w-full h-20 border-b-4 border-black 
-      bg-[#ffffff] items-center text-black
+      flex flex-row w-full h-20
+      bg-[#333333] items-center
+      bg-opacity-40
+      text-white
+      backdrop-blur-md
+      shadow-md
       lg:text-2xl justify-between
       fixed
     `}>

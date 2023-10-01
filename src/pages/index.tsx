@@ -9,7 +9,7 @@ import { Projectimage } from '@/components/Style/ProjectImage'
 
 export default function Home() {
   return (
-    <main>
+    <main className='text-black'>
       <TopBar/>
       <Main/>
       <Habilities/>
