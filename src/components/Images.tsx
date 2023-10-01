@@ -1,14 +1,13 @@
 import Image from "next/image"
 
-import react from '../img/Eu.jpg'
-import next from '../img/Next.png'
-import ts from '../img/typescript.png'
-import twcss from '../img/tailwind.png'
-import html from '../img/html5.png'
-import css from '../img/css3.png'
-import js from '../img/javascript.png'
-import git from '../img/github.png' 
-
+import React from '../../public/react.png'
+import Next from '../../public/next.png'
+import Github from '../../public/github.png'
+import Javascript from '../../public/javascript.png'
+import Typescript from '../../public/typescript.png'
+import Html5 from '../../public/html5.png'
+import Css3 from '../../public/css3.png'
+import Tailwind from '../../public/tailwind.png'
 
 export function Images () {
 
@@ -20,18 +19,18 @@ export function Images () {
 
         <div className="mt-[3%] flex flex-rol items-center justify-center gap-8">
             
-            <div className="gap-3 flex flex-col border border-2 border-black p-4 items-center">
-                <Image src={react} alt="React" width={160} height={60}/>
+            <div className="gap-3 flex flex-col  border-2 border-black p-4 items-center">
+                <Image src={React} alt="React" width={160} height={60}/>
                 <span>React Js</span>
             </div>
             
-            <div className="gap-3 flex flex-col border border-2 border-black p-4 items-center">
-                <Image src={next} alt="JavaScript" width={140} height={60}/>    
+            <div className="gap-3 flex flex-col  border-2 border-black p-4 items-center">
+                <Image src={Next} alt="JavaScript" width={140} height={60}/>    
                 <span>Next Js</span>           
             </div>
             
-            <div className="gap-3 flex flex-col border border-2 border-black p-4 items-center">
-                <Image src={git} alt="GitHub" width={140} height={60}/>
+            <div className="gap-3 flex flex-col  border-2 border-black p-4 items-center">
+                <Image src={Github} alt="GitHub" width={140} height={60}/>
                 <span>Git Hub</span> 
             </div>
 
@@ -39,13 +38,13 @@ export function Images () {
 
         <div className="flex items-center justify-center gap-8">
 
-            <div className="gap-3 flex flex-col border border-2 border-black p-4 items-center">
-                <Image src={js} alt="JavaScript" width={140} height={60}/>
+            <div className="gap-3 flex flex-col  border-2 border-black p-4 items-center">
+                <Image src={Javascript} alt="JavaScript" width={140} height={60}/>
                 <span>Java Script</span> 
             </div>
 
-            <div className="gap-3 flex flex-col border border-2 border-black p-4 items-center">
-                <Image src={ts} alt="TypeScript" width={141} height={60}/>
+            <div className="gap-3 flex flex-col  border-2 border-black p-4 items-center">
+                <Image src={Typescript} alt="TypeScript" width={141} height={60}/>
                 <span>Type Script</span> 
             </div>
 
@@ -53,18 +52,18 @@ export function Images () {
 
         <div className="flex items-center justify-center gap-8">
 
-            <div className="gap-3 flex flex-col border border-2 border-black p-4 items-center">
-                <Image src={html} alt="HTML5" width={140} height={60}/>
-                <span>HTML 5</span> 
+            <div className="gap-3 flex flex-col  border-2 border-black p-4 items-center">
+                <Image src={Html5} alt="HTML5" width={140} height={60}/>
+                <span>HTML 5</span>
             </div>
 
-            <div className="gap-3 flex flex-col border border-2 border-black p-4 items-center">
-                <Image src={css} alt="CSS3" width={115} height={60}/>
+            <div className="gap-3 flex flex-col  border-2 border-black p-4 items-center">
+                <Image src={Css3} alt="CSS3" width={115} height={60}/>
                 <span>Css 3</span> 
             </div>
 
-            <div className="gap-3 flex flex-col border border-2 border-black p-2 items-center">
-                <Image src={twcss} alt="Tailwind Css" width={160} height={60}/>
+            <div className="gap-3 flex flex-col  border-2 border-black p-2 items-center">
+                <Image src={Tailwind} alt="Tailwind Css" width={160} height={60}/>
                 <span>Tailwind Css</span> 
             </div>
         </div>
