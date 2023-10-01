@@ -62,7 +62,11 @@ export function Main () {
         `}>
             
             <div className="border-4 border-black mt-[10%]">
-                <img className="object-cover h-72 w-max" src="https://res.cloudinary.com/dte7upwcr/image/upload/f_auto,w_1200/v1618959177/blog/blog2/curso-de-programacao/curso-de-programacao-img_header.jpg" alt="Eu"></img>
+                <Image 
+                className="object-cover h-72 w-max" 
+                src="https://res.cloudinary.com/dte7upwcr/image/upload/f_auto,w_1200/v1618959177/blog/blog2/curso-de-programacao/curso-de-programacao-img_header.jpg" 
+                width={800} height={60}
+                alt="Eu"></Image>
             </div>
 
             <div className={`

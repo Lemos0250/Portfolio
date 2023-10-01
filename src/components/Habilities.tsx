@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function Habilities () {
     return (
 
@@ -46,7 +48,10 @@ export function Habilities () {
             border-4 border-black 
             rounded-full overflow-hidden
             max-[1020px]:mb-[5%]`}>
-                <img className="object-cover lg:h-96 w-max" src="https://avatars.githubusercontent.com/u/79033128?v=4" alt="Eu"></img>
+                <Image 
+                className="object-cover lg:h-96 w-max" 
+                src="https://avatars.githubusercontent.com/u/79033128?v=4" width={300} height={60} alt="Eu"></Image>
+
                 <div id="Projetos" ></div>            
             </div>
             

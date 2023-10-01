@@ -50,7 +50,7 @@ export function Projectimage () {
                         </div>
                 </div>
                 
-                <img className={`
+                <Image className={`
                 border 
                 border-4 border-black 
                 hover:border-blue-800    
@@ -107,7 +107,7 @@ export function Projectimage () {
 
                     </div>
                 </div>
-                <img className={`
+                <Image  className={`
                 border 
                 border-4 border-black 
                 hover:border-blue-800
@@ -166,7 +166,7 @@ export function Projectimage () {
 
                 </div>
                 </div>
-                <img className={`
+                <Image  className={`
                 border 
                 border-4 border-black 
                 hover:border-blue-800
