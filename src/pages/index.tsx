@@ -14,7 +14,7 @@ export default function Home() {
       <Main/>
       <Habilities/>
       <Projectimage/>
-      {/*<Images/>*/}
+      <Images/>
     </main>
   )
 }
