@@ -4,11 +4,11 @@ export function Habilities () {
     return (
 
         <div className={`
-        flex h-screen
+        flex max-sm:h-full md:h-screen
         lg:flex-row     max-[1020px]:flex-col   
         w-full justify-evenly
         text-2xl
-        bg-[#333333]
+        bg-[#525252]
         text-white
         items-center 
 
@@ -50,7 +50,7 @@ export function Habilities () {
             rounded-full overflow-hidden
             max-[1020px]:mb-[5%]`}>
                 <Image 
-                className="object-cover lg:h-96 w-max" 
+                className="object-cover w-max lg:h-96]" 
                 src="https://avatars.githubusercontent.com/u/79033128?v=4" width={300} height={60} alt="Eu"></Image>
 
                 <div id="Projetos" ></div>            
